@@ -11,7 +11,7 @@ public class Ej12 {
 		int dado, n, d1=0, d2=0, d3=0, d4=0, d5=0, d6=0;
 		BufferedReader teclado=new BufferedReader(new InputStreamReader(System.in));
 		
-		System.out.println("Â¿Cuantas veces desea tirar el dado?");
+		System.out.println("¿Cuantas veces desea tirar el dado?");
 		n=Integer.parseInt(teclado.readLine());
 		
 		for (int i = 0; i <n; i++) {
